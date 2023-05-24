@@ -14,14 +14,3 @@
       debug:
         var: eai_server_list
 
-    - name: Print facts my_sec_disp_srv_list
-      debug:
-        var: f_sec_disp_server_list
-
-    - name: Print facts my_appl_server_list
-      debug:
-        var: f_appl_server_list
-
-    - name: Print facts my_eai_server_list
-      debug:
-        var: f_eai_server_list
