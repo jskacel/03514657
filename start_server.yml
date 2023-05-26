@@ -16,7 +16,7 @@
 
     - name: Print fact for my_sec_disp_srv_list
       debug:
-        msg: "{{ ansible_facts }}"
+        var: ansible_facts
 
     - name: Print fact for my_sec_disp_srv_list
       debug:
