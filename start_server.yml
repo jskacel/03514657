@@ -1,5 +1,4 @@
 - hosts: all
-  gather_facts: false
 
   tasks:
     - name: Print my_sec_disp_srv_list
