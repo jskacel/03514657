@@ -27,4 +27,4 @@
 
     - name: Print fact my_eai_server_list
       debug:
-        msg: "{{ ansible_facts[f_eai_server_list] }}"
+        msg: "{{ ansible_facts['f_eai_server_list'] }}"
