@@ -17,3 +17,7 @@
         f_appl_server_list:     "{{ my_appl_server_list }}"
         f_eai_server_list:      "{{ my_eai_server_list }}"
         cacheable: true
+
+    - name: Printing facts
+      debug:
+        var: ansible_facts

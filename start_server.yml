@@ -17,10 +17,6 @@
       debug:
         var: ansible_facts
 
-    - name: Print local ones
-      debug:
-        var: ansible_local
-
     - name: Print fact for my_sec_disp_srv_list
       debug:
         msg: "{{ ansible_facts['f_sec_disp_server_list'] }}"
