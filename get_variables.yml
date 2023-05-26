@@ -11,7 +11,7 @@
         per_host: false
         aggregate: false
 
-    - name: Save all global variables for the complete workflow
+    - name: Testing with facts
       ansible.builtin.set_fact:
         f_sec_disp_server_list: "{{ my_sec_disp_srv_list }}"
         f_appl_server_list:     "{{ my_appl_server_list }}"
