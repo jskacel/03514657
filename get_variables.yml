@@ -20,4 +20,4 @@
 
     - name: Printing facts
       debug:
-        var: ansible_facts
+        var: ansible_facts["f_sec_disp_server_list"]
