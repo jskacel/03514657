@@ -16,11 +16,11 @@
 
     - name: Print fact for my_sec_disp_srv_list
       debug:
-        msg: "{{ ansible_facts[f_sec_disp_server_list] }}"
+        msg: "{{ f_sec_disp_server_list }}"
 
     - name: Print fact my_appl_server_list
       debug:
-        msg: "{{ ansible_facts[f_appl_server_list] }}"
+        msg: "{{ ansible_facts['f_appl_server_list'] }}"
 
     - name: Print fact my_eai_server_list
       debug:
