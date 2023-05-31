@@ -1,5 +1,6 @@
 - name: Get variables
-  hosts: all
+  hosts: localhost
+  connection: local
 
   tasks:
     - name: Save all global variables for the complete workflow
